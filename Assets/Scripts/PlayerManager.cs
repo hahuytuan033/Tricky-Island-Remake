@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask groundLayer;
     private bool isGrounded;
+    private bool wasGrounded;
 
     private Rigidbody2D rb;
     private float xInput;
